@@ -29,7 +29,7 @@ searchBtn.addEventListener('click', () => {
         card.className = 'card';
 
         const img = document.createElement('img');
-        img.src = data.Poster !== "N/A" ? data.Poster : 'https://via.placeholder.com/250x350?text=No+Image';
+        img.src = data.Poster !== "N/A" ? data.Poster : 'https://thumbs.dreamstime.com/b/n-sign-icon-one-collection-icons-websites-web-design-mobile-app-n-sign-icon-one-collection-icons-188998903.jpg';
         img.alt = 'Poster';
 
         const title = document.createElement('h3');
